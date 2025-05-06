@@ -3,17 +3,21 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Add hover effect to header
     const header = document.querySelector("header h1");
-    header.addEventListener("mouseover", () => {
-      header.style.color = "#fff";
-      header.style.backgroundColor = "#6b3e26";
-      header.style.padding = "10px";
-      header.style.transition = "all 0.3s ease";
+    document.body.addEventListener("mouseover", (event) => {
+      if (event.target === header) {
+        header.style.color = "#fff";
+        header.style.backgroundColor = "#6b3e26";
+        header.style.padding = "10px";
+        header.style.transition = "all 0.3s ease";
+      }
     });
   
-    header.addEventListener("mouseout", () => {
-      header.style.color = "#6b3e26";
-      header.style.backgroundColor = "transparent";
-      header.style.padding = "0";
+    document.body.addEventListener("mouseout", (event) => {
+      if (event.target === header) {
+        header.style.color = "#6b3e26";
+        header.style.backgroundColor = "transparent";
+        header.style.padding = "0";
+      }
     });
   
     // Interactive carousel scrolling

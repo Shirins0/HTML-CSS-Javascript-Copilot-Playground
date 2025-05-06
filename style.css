@@ -1,29 +1,31 @@
 /* General Styles */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background: #fffaf6;
-    color: #333;
+    background: #fff0c0;
+    color: #000000;
     line-height: 1.6;
   }
   
   /* Header Styles */
   header {
-    background-color: #f5e6da;
+    background-color: #fff0c0;
     padding: 2rem 1rem;
     text-align: center;
+    font-size: 1.5rem;
   }
   
   header h1 {
     margin: 0;
     font-size: 2rem;
-    color: #6b3e26;
+    color: #721e1e;
   }
   
   header p {
     font-style: italic;
-    color: #8c5c3a;
+    font-weight: bold;
+    color: #1e631f;
   }
   
   /* Container and Main Image */
@@ -45,9 +47,9 @@ body {
   }
   
   h2 {
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #ffbf00;
     padding-bottom: 0.5rem;
-    color: #a0522d;
+    color: #287e26;
   }
   
   ul, ol {
