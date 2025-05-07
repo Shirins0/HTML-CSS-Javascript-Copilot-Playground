@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector("header h1");
     document.body.addEventListener("mouseover", (event) => {
       if (event.target === header) {
-        header.style.color = "darkgreen";
-        header.style.border = "2px solid darkgreen";
+        header.style.color = "none";
+        header.style.border = "8px solid Darkgreen";
         header.style.borderRadius = "5px";
-        header.style.backgroundColor = "lightorange";
+        header.style.backgroundColor = "gold";
         header.style.padding = "10px";
         header.style.transition = "all 0.3s ease";
       }
@@ -16,9 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
     document.body.addEventListener("mouseout", (event) => {
       if (event.target === header) {
-        header.style.color = "#6b3e26";
-        header.style.backgroundColor = "lightorange";
+        header.style.color = "none";
+        header.style.backgroundColor = "";
+        header.style.border = "none";
+        header.style.borderRadius = "0";
         header.style.padding = "0";
+        header.style.padding = "5";
       }
     });
   

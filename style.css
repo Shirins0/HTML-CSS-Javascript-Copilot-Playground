@@ -3,7 +3,7 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background: #fffaea;
+    background: #fffcf3;
     color: #000000;
     line-height: 1.6;
   }
@@ -19,7 +19,7 @@ body {
   header h1 {
     margin: 0;
     font-size: 2rem;
-    color: #721e1e;
+    color: #a38300;
   }
   
   header p {
